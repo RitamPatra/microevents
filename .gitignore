@@ -1,0 +1,66 @@
+# Ignore packaged jars/wars (built artifacts)
+*.jar
+*.war
+
+# Include the Maven wrapper JAR
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Ensure wrapper scripts are tracked
+!mvnw
+!mvnw.cmd
+
+# Built / generated
+/target/
+/build/
+/out/
+
+# IntelliJ
+/.idea/
+/*.iml
+*.iws
+*.iml
+.idea/
+
+# VS Code
+.vscode/
+
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs, temp
+*.log
+*.tmp
+
+# H2 file DB (if you switch to file-backed H2)
+/*.h2.db
+/data/
+*.h2.db
+
+# app-specific secret/config files
+application-secrets.properties
+.env
+*.env
+
+# Ignore local credentials if you ever add them by mistake
+credentials.*
+secrets.*
+
+# GitHub workflows build outputs
+/.github/workflows/*/target/
