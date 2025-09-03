@@ -11,6 +11,7 @@ Microevents — a small meetup app built with Spring Boot, JSP and H2 for quick 
 - Java 17, Spring Boot, Spring Data JPA
 - JSP views (server-side)
 - H2 in-memory database (dev only)
+- Bootstrap 5
 - Maven wrapper included
 
 ## How to Run
